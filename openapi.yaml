@@ -26,3 +26,22 @@ paths:
             application/json:
               schema:
                 type: object
+                properties:
+                  bank:
+                    type: string
+                  monthly_deposits:
+                    type: number
+                  monthly_withdrawals:
+                    type: number
+                  average_balance:
+                    type: number
+                  ending_balance:
+                    type: number
+                  nsf_count:
+                    type: integer
+                  low_balance_days:
+                    type: integer
+                  daily_balances:
+                    type: array
+                    items:
+                      type: number
