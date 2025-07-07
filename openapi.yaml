@@ -1,4 +1,4 @@
-openapi: 3.0.0
+openapi: 3.1.0
 info:
   title: Bank Statement Analyzer
   version: 1.0.0
@@ -7,6 +7,7 @@ servers:
 paths:
   /analyze:
     post:
+      operationId: analyzeBankStatement
       summary: Analyze uploaded bank PDF
       requestBody:
         required: true
