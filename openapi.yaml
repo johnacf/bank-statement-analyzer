@@ -2,6 +2,8 @@ openapi: 3.0.0
 info:
   title: Bank Statement Analyzer
   version: 1.0.0
+servers:
+  - url: https://mca-analyzer.up.railway.app
 paths:
   /analyze:
     post:
