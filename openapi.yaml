@@ -3,7 +3,7 @@ info:
   title: Bank Statement Analyzer
   version: 1.0.0
 servers:
-  - url: https://mca-analyzer.up.railway.app
+  - url: https://bank-statement-analyzer-2psr.onrender.com
 paths:
   /analyze:
     post:
